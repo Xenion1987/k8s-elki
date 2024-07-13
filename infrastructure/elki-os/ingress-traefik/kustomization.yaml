@@ -10,4 +10,8 @@ resources:
   - helm-release.yaml
   - ingress-routes.yaml
   - middlewares.yaml
-  - secrets.yaml
+  # - secrets.yaml
+secretGenerator:
+  - name: authsecret
+    files:
+      - ingress-traefik-users.txt
