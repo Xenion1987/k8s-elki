@@ -16,7 +16,7 @@ spec:
           namespace: ingress-traefik # [7]
       services: # [8]
         - kind: Service
-          name: traefik-dashboard
+          name: ingress-traefik-dashboard
           namespace: ingress-traefik
           passHostHeader: true
           port: 80 # [9]
