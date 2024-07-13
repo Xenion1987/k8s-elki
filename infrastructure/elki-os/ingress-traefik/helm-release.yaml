@@ -18,6 +18,6 @@ spec:
         name: ingress-traefik
       interval: 5m
   releaseName: ingress-traefik
-  valueFrom:
+  valuesFrom:
     - kind: ConfigMap
       name: traefik-values
