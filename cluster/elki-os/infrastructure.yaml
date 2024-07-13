@@ -9,7 +9,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./infrastructure/elki-os
+  path: ./infrastructure/elki-os/
   wait: true
   timeout: 5m0s
   prune: true
