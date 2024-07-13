@@ -6,9 +6,10 @@ configMapGenerator:
   - name: traefik-values
     files:
       - values.yaml=traefik-values.yaml
+    options:
+      disableNameSuffixHash: true
 resources:
   - helm-release.yaml
   - ingress-routes.yaml
   - middlewares.yaml
   - secrets.yaml
-# deleteme

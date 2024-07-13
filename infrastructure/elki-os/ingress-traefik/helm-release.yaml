@@ -21,4 +21,3 @@ spec:
   valuesFrom:
     - kind: ConfigMap
       name: traefik-values
-      valuesKey: traefik-values.yaml
