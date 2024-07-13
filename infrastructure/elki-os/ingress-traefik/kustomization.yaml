@@ -13,3 +13,4 @@ resources:
   - ingress-routes.yaml
   - middlewares.yaml
   - secrets.yaml
+  - services.yaml
