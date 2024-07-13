@@ -18,10 +18,6 @@ spec:
         name: ingress-traefik
       interval: 5m
   releaseName: ingress-traefik
-  values:
-    service:
-      externalIPs:
-        - "185.117.251.134"
-    ingressRoute:
-      dashboard:
-        enabled: true
+  valueFrom:
+    - kind: ConfigMap
+      name: traefik-values

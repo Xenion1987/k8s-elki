@@ -5,3 +5,4 @@ resources:
   - base/namespaces
   - base/ingress-traefik
   - elki-os/namespaces
+  - elki-os/ingress-traefik

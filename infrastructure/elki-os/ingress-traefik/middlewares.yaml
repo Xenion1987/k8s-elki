@@ -7,11 +7,3 @@ metadata:
 spec:
   basicAuth:
     secret: authsecret
----
-apiVersion: v1
-kind: Secret
-metadata:
-  name: authsecret
-  namespace: default
-data:
-  usersFile: "ingress-traefik-users.txt"
