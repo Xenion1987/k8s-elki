@@ -20,7 +20,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./cluster/elki-os
+  path: ./cluster/elki
   prune: true
   sourceRef:
     kind: GitRepository
